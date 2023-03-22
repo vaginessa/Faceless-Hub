@@ -205,5 +205,5 @@
     <string name="force_clean_up_DESC">Dọn dẹp các tập tin dư thừa</string>
     <string name="repository_unreachable">Kho lưu trữ không thể truy cập</string>
     <string name="enable_repo">Kích hoạt kho lưu trữ</string>
-    <string name="restart_app">Khởi động lại Droid-ify để xem thay đổi</string>
+    <string name="restart_app">Khởi động lại Faceless-Hub để xem thay đổi</string>
 </resources>

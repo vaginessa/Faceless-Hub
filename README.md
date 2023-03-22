@@ -2,7 +2,7 @@
 
 <img width="" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="Droid-ify" align="center">
 
-# Droid-ify
+# Faceless-Hub
 
 ### A quick material F-Droid client.
 

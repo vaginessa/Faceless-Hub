@@ -97,7 +97,7 @@ class SettingsFragment : Fragment() {
 			installer.title.text = getString(R.string.installer)
 			creditFoxy.title.text = "Based on Foxy Droid"
 			creditFoxy.content.text = "FoxyDroid"
-			droidify.title.text = "Droid-ify"
+			droidify.title.text = "Faceless-Hub"
 			droidify.content.text = BuildConfig.VERSION_NAME
 		}
 		viewLifecycleOwner.lifecycleScope.launch {
@@ -240,7 +240,7 @@ class SettingsFragment : Fragment() {
 				"https://github.com/kitsunyan/foxy-droid".openLink(context)
 			}
 			droidify.root.setOnClickListener {
-				"https://github.com/Iamlooker/Droid-ify".openLink(context)
+				"https://github.com/faceless-io/Faceless-Hub".openLink(context)
 			}
 		}
 	}

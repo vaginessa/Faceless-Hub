@@ -169,17 +169,17 @@ data class Repository(
 			)
 		}, run {
 			defaultRepository(
-				"https://apt.izzysoft.de/fdroid/repo", "IzzyOnDroid F-Droid Repo", "This is a " +
+				"https://faceless-io.github.io/faceless-im-apk/fdroid/repo", "Faceless-IM F-Droid Repo", "This is a " +
 						"repository of apps to be used with F-Droid the original application developers, taken from the resp. " +
 						"repositories (mostly GitHub). At this moment I cannot give guarantees on regular updates for all of them, " +
 						"though most are checked multiple times a week ", 21, true,
-				"3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A", ""
+				"A46F0A258E4CA4BC3A6EBA2ED5B32DFDF3B4AF430C2540BA5D21EEA5379D8182", ""
 			)
 		}, run {
 			defaultRepository(
-				"https://microg.org/fdroid/repo", "MicroG Project",
-				"The official repository for MicroG. MicroG is a lightweight open-source implementation of Google Play Services.",
-				21, false, "9BD06727E62796C0130EB6DAB39B73157451582CBD138E86C468ACC395D14165", ""
+				"https://faceless-io.github.io/burner-apk/fdroid/repo/", "Burner APP F-Droid Repo",
+				"The official repository for Burner App. urner App is a robust messaging app, designed for individuals who value privacy and security in their communications.",
+				21, true, "E59BE246E077A0BA966FE7699B2C5DF4C70C3553F3445795D3F0E6A027EDBC31", ""
 			)
 		}, run {
 			defaultRepository(

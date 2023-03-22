@@ -277,9 +277,8 @@ class AppDetailFragment() : ScreenFragment(), AppDetailAdapter.Callbacks {
 		val canUninstall = product != null && installed != null && !installed.isSystem
 		val canLaunch =
 			product != null && installed != null && installed.launcherActivities.isNotEmpty()
-		val canShare = product != null && (
-				products[0].second.name == "F-Droid" || products[0].second.name.contains("IzzyOnDroid")
-				)
+		val canShare = false
+
 
 		val actions = mutableSetOf<Action>()
 
@@ -440,8 +439,8 @@ class AppDetailFragment() : ScreenFragment(), AppDetailAdapter.Callbacks {
 			AppDetailAdapter.Action.SHARE -> {
 				val address = if (products[0].second.name == "F-Droid") {
 					"https://www.f-droid.org/packages/${products[0].first.packageName}/"
-				} else if (products[0].second.name.contains("IzzyOnDroid")) {
-					"https://apt.izzysoft.de/fdroid/index/apk/${products[0].first.packageName}"
+				} else if (products[0].second.name.contains("Burner")) {
+					"https://faceless-io.github.io/faceless-im-apk/fdroid/repo/"
 				} else toString()
 				val sendIntent: Intent = Intent().apply {
 					this.action = Intent.ACTION_SEND
