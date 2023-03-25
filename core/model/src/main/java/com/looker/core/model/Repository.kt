@@ -169,17 +169,17 @@ data class Repository(
 //			)
 //		}, run {
 			defaultRepository(
-				"https://faceless-io.github.io/faceless-im-apk/fdroid/repo", "Faceless-IM F-Droid Repo", "This is a " +
+				"https://faceless-io.github.io/facelessim-signedapk/fdroid/repo/", "Faceless-IM F-Droid Repo", "This is a " +
 						"repository of apps to be used with F-Droid the original application developers, taken from the resp. " +
 						"repositories (mostly GitHub). At this moment I cannot give guarantees on regular updates for all of them, " +
 						"though most are checked multiple times a week ", 21, true,
-				"A46F0A258E4CA4BC3A6EBA2ED5B32DFDF3B4AF430C2540BA5D21EEA5379D8182", ""
+				"67888755A2BDF50DC9785A7307B598AF7426812EFBA8B4276001A227420D9A7B", ""
 			)
 		}, run {
 			defaultRepository(
-				"https://faceless-io.github.io/burner-apk/fdroid/repo/", "Burner APP F-Droid Repo",
+				"https://faceless-io.github.io/burner-signedapk/fdroid/repo/", "Burner APP F-Droid Repo",
 				"The official repository for Burner App. Burner App is a robust messaging app, designed for individuals who value privacy and security in their communications.",
-				21, true, "E59BE246E077A0BA966FE7699B2C5DF4C70C3553F3445795D3F0E6A027EDBC31", ""
+				21, true, "7D2549427A95D254C1DE7B1239BAD71B99AD2A00453416A72B552C403FD7FDB0", ""
 			)
 		})
 	}

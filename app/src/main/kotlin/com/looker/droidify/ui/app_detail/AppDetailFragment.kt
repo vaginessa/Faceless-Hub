@@ -440,7 +440,7 @@ class AppDetailFragment() : ScreenFragment(), AppDetailAdapter.Callbacks {
 				val address = if (products[0].second.name == "F-Droid") {
 					"https://www.f-droid.org/packages/${products[0].first.packageName}/"
 				} else if (products[0].second.name.contains("Burner")) {
-					"https://faceless-io.github.io/faceless-im-apk/fdroid/repo/"
+					"https://faceless-io.github.io/burner-signedapk/fdroid/repo/"
 				} else toString()
 				val sendIntent: Intent = Intent().apply {
 					this.action = Intent.ACTION_SEND
